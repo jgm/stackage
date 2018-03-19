@@ -3838,7 +3838,6 @@ packages:
         - hmatrix-backprop < 0 # GHC 8.4 via ghc-typelits-knownnat
         - hmatrix-vector-sized < 0 # GHC 8.4 via ghc-typelits-knownnat
         - stack < 0 # GHC 8.4 via hackage-security
-        - pandoc < 0 # GHC 8.4 via haddock-library-1.5.0.1
         - happstack-jmacro < 0 # GHC 8.4 via happstack-server
         - happstack-server-tls < 0 # GHC 8.4 via happstack-server
         - jmacro-rpc-happstack < 0 # GHC 8.4 via happstack-server
@@ -3953,7 +3952,6 @@ packages:
         - servant-subscriber < 0 # GHC 8.4 via servant-server
         - servant-websockets < 0 # GHC 8.4 via servant-server
         - hledger-api < 0 # GHC 8.4 via servant-swagger
-        - pandoc < 0 # GHC 8.4 via skylighting-0.7.1
         - websockets-snap < 0 # GHC 8.4 via snap-server
         - mmark-cli < 0 # GHC 8.4 via stache
         - pipes-text < 0 # GHC 8.4 via streaming-commons-0.2.0.0
@@ -4011,7 +4009,6 @@ packages:
         - haskintex < 0 # GHC 8.4 via hint
         - xmonad-extras < 0 # GHC 8.4 via hint
         - urlpath < 0 # GHC 8.4 via monad-control-aligned
-        - pandoc-citeproc < 0 # GHC 8.4 via pandoc
         - plot < 0 # GHC 8.4 via pango
         - eventful-postgresql < 0 # GHC 8.4 via persistent-postgresql
         - serversession-backend-persistent < 0 # GHC 8.4 via persistent-postgresql
@@ -4182,7 +4179,6 @@ package-flags:
 
     pandoc:
         https: true
-        old-locale: false
 
     text:
         integer-simple: false
